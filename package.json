@@ -1,7 +1,7 @@
 {
-  "name": "boilerplate-card",
-  "version": "1.4.1",
-  "description": "Lovelace boilerplate-card",
+  "name": "volcano-card",
+  "version": "0.0.1",
+  "description": "Lovelace volcano-card",
   "keywords": [
     "home-assistant",
     "homeassistant",
@@ -10,9 +10,9 @@
     "lovelace",
     "custom-cards"
   ],
-  "module": "boilerplate-card.js",
-  "repository": "git@github.com:custom_cards/boilerplate-card.git",
-  "author": "Ian Richardson <iantrich@gmail.com>",
+  "module": "volcano-card.js",
+  "repository": "git@github.com:hookedonunix/volcano-card.git",
+  "author": "hookedonunix",
   "license": "MIT",
   "dependencies": {
     "@lit-labs/scoped-registry-mixin": "^1.0.0",
@@ -32,6 +32,7 @@
     "@babel/core": "^7.15.0",
     "@babel/plugin-proposal-class-properties": "^7.14.5",
     "@babel/plugin-proposal-decorators": "^7.14.5",
+    "@mdi/js": "^6.7.96",
     "@rollup/plugin-json": "^4.1.0",
     "@typescript-eslint/eslint-plugin": "^4.33.0",
     "@typescript-eslint/parser": "^4.33.0",
@@ -47,7 +48,7 @@
     "rollup-plugin-node-resolve": "^5.2.0",
     "rollup-plugin-serve": "^1.1.0",
     "rollup-plugin-terser": "^7.0.2",
-    "rollup-plugin-typescript2": "^0.30.0",
+    "rollup-plugin-typescript2": "^0.31.2",
     "typescript": "^4.4.3"
   },
   "resolutions": {

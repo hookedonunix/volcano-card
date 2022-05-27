@@ -39,10 +39,11 @@ const plugins = [
 
 export default [
   {
-    input: 'src/boilerplate-card.ts',
+    input: 'src/volcano-card.ts',
     output: {
-      dir: 'dist',
+      file: 'dist/volcano-card.js',
       format: 'es',
+      inlineDynamicImports: true,
     },
     plugins: [...plugins],
   },
